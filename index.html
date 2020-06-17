@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="wrapper">
+      <div id="container-form">
+        <div id="form">
+          <div class="input-row">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" value="">
+          </div>
+          <div class="input-row">
+            <label for="km">Km da percorrere:</label>
+            <input id="km" type="number" name="km" value="">
+          </div>
+          <div class="input-row">
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" name="categoria">
+              <option value="Over65">Over65</option>
+              <option value="Maggiorenne" selected>Maggiorenne</option>
+              <option value="Minorenne">Minorenne</option>
+            </select>
+          </div>
+          <button id="creaBiglietto" type="button" name="creaBiglietto">Crea</button>
+          <button id="annullaBiglietto" type="button" name="annullaBiglietto">Annulla</button>
+        </div>
+      </div>
+
+      <div id="container-biglietto" class="hidden">
+        <div id="biglietto" class="hidden">
+          <table>
+            <thead>
+              <tr>
+                <th>Passeggero</th>
+                <th>Numero Treno</th>
+                <th>Carrozza</th>
+                <th>Prezzo Biglietto</th>
+                <th>Categoria</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <tr>
+                <th id="passeggero"></th>
+                <th id="numeroTreno"></th>
+                <th id="carrozza"></th>
+                <th id="prezzoBiglietto"></th>
+                <th id="categoriaPasseggero"></th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+  </body>
+</html>

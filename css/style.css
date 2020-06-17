@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #65655e;
+}
+
+#container-form, #container-biglietto {
+  width: 40%;
+  height: 200px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: lightgrey;
+  border: 2px solid #454545;
+  border-radius: 20px;
+}
+
+#biglietto, #form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #262730;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#biglietto {
+  justify-content: center;
+}
+
+ #biglietto {
+  font-weight: 400;
+  font-size: 16px;
+ }
+
+ .input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+.hidden {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.show {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+table, th {
+  border: 1px solid black;
+}
+
+th {
+  padding: 5px;
+}
+
+button {
+  width: 80px;
+  align-self: center;
+}
